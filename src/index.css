@@ -1,0 +1,481 @@
+/* variables */
+:root {
+  --clr-black-smokey: rgba(28, 17, 10);
+  --clr-charcoal: rgba(39, 62, 71);
+  --clr-champagne: rgba(228, 214, 167);
+  --clr-platinum: rgba(232, 233, 235);
+  --clr-ecru: rgba(216, 201, 155);
+  --clr-gold: rgba(233, 180, 76);
+  --clr-red: rgba(155, 41, 21);
+  --clr-burgundy: rgba(164, 36, 59);
+  --clr-pink: rgb(195, 93, 112);
+  --clr-blue: rgba(80, 162, 167);
+  --clr-black: #222;
+  --clr-white: rgba(232, 233, 235);
+  --clr-light-grey: rgba(245, 245, 245);
+  --spacing: 0.1rem;
+  --transition: all 0.3s linear;
+}
+
+/* styles */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: var(--clr-champagne);
+  color: var(--clr-black-smokey);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  /* overflow: hidden; */
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-charcoal);
+}
+/* media query */
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+main {
+  width: 90vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    width: 95vw;
+  }
+}
+
+/* navbar */
+nav {
+  background: var(--clr-charcoal);
+}
+
+.nav-center {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  color: var(--clr-light-grey);
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  padding: 0.5rem 1rem;
+  letter-spacing: var(--spacing);
+}
+
+.links a:hover {
+  color: var(--clr-gold);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* navbar media queries */
+@media screen and (min-width: 800px) {
+  .links a {
+    padding: 0;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
+}
+
+/* books and book */
+
+.single-book {
+  margin: 2rem 0;
+  padding: 0.5rem;
+  border-radius: 1%;
+  border: 0.2rem solid var(--clr-red);
+  box-shadow: var(--clr-black-smokey);
+  background: var(--clr-ecru);
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.single-book img {
+  height: 25rem;
+  width: 70%;
+  padding: 2rem 0 0 0;
+}
+
+.book-title {
+  font-size: 1.9rem;
+  text-align: center;
+  padding: 1rem;
+  color: var(--clr-charcoal);
+}
+
+.title-genre {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0.5rem;
+}
+.title-genre p {
+  font-size: 1.1rem;
+  color: var(--clr-charcoal);
+  padding-right: 0.5rem;
+}
+
+.genre {
+  margin-right: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  padding: 0.8rem 0 0 0;
+}
+
+.read {
+  width: 4rem;
+  background-color: var(--clr-pink);
+  color: var(--clr-black);
+  text-transform: capitalize;
+  /* border: 0.1rem solid var(--clr-platinum); */
+  font-size: 0.7rem;
+  margin-top: 0;
+  transition: var(--transition);
+}
+
+.read:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: var(--clr-burgundy);
+  color: var(--clr-white);
+}
+
+.review {
+  padding: 2rem 0 1rem 0;
+  color-scheme: var(--clr-charcoal);
+}
+
+.review p {
+  padding: 1rem 0 0 0;
+}
+
+.rating {
+  font-size: 1.7rem;
+  width: auto;
+}
+
+.icons {
+  font-size: 1.7rem;
+  margin: 0.5rem 0 0 0.5rem;
+  color: var(--clr-burgundy);
+}
+
+@media screen and (min-width: 760px) {
+  .single-book {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(30%, auto);
+  }
+  .single-book img {
+    grid-column: 1;
+    grid-row: 2/3;
+    width: 100%;
+    padding: 0;
+  }
+  .information {
+    grid-column: 2/4;
+    grid-row: 1/4;
+  }
+  .book-title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    color: var(--clr-charcoal);
+  }
+  .title-genre p {
+    font-size: 1.2rem;
+    color: var(--clr-charcoal);
+  }
+  .read {
+    width: 5rem;
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .single-book {
+    width: 95vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(30%, auto);
+  }
+
+  .single-book img {
+    grid-column: 1;
+    grid-row: 1/4;
+    height: 35rem;
+    width: 90%;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .information {
+    text-align: center;
+    padding-right: 2rem;
+  }
+  .book-title {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--clr-charcoal);
+  }
+  .title-genre p {
+    font-size: 1.3rem;
+    color: var(--clr-charcoal);
+  }
+
+  .description {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+  }
+  .review h4 {
+    font-size: 1.2rem;
+  }
+
+  .review p {
+    font-size: 1.1rem;
+  }
+}
+
+/* pick a book section */
+.underline {
+  height: 0.25rem;
+  width: 30rem;
+  background: var(--clr-charcoal);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-selection {
+  height: 86vh;
+}
+
+.pick {
+  height: 50vh;
+  position: relative;
+}
+
+.pick-title {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--clr-charcoal);
+}
+.pickmin {
+  width: 100%;
+  display: flex;
+  padding: 0 1rem 2rem;
+  justify-content: space-around;
+}
+
+.pick-book {
+  padding: 0.5rem;
+  border-radius: 5%;
+  border: 0.1rem solid var(--clr-blue);
+  box-shadow: var(--clr-black-smokey);
+  background: var(--clr-ecru);
+  width: 35%;
+  height: auto;
+  text-align: center;
+  transition: var(--transition);
+}
+
+/* active class add a dynamic fct to btns */
+.active {
+  border: 0.2rem solid var(--clr-blue);
+}
+
+.pick-book:hover {
+  cursor: pointer;
+}
+
+.pick-me {
+  margin-bottom: 2rem;
+  border-radius: 2%;
+  border: 0.1rem solid var(--clr-blue);
+  box-shadow: var(--clr-black-smokey);
+  background: var(--clr-ecru);
+  position: absolute;
+  top: 4rem;
+  /* have to add this height dynamicely */
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nonactived {
+  transform: translateX(120%);
+  position: absolute;
+}
+
+/* author component & buttons component */
+.author-filter,
+.genre-filter {
+  width: 100%;
+
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* wrap: flex items will be on multiple line */
+  justify-content: space-around;
+}
+
+/* btns */
+.genre-btn,
+.author-btns {
+  width: 20rem;
+  height: 2rem;
+  background-color: var(--clr-champagne);
+  /* color: var(--clr-burgundy); */
+  margin: 0.5rem;
+  font-size: 1.1rem;
+}
+.genre-btn:hover,
+.author-btns:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.genre-btn::after {
+  background-color: blue;
+}
+
+.genres-icons {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: var(--clr-burgundy);
+}
+
+@media screen and (min-width: 760px) {
+  .book-selection {
+    height: 45vh;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .book-selection {
+    height: 65vh;
+  }
+
+  .pick-book {
+    padding: 0.5rem;
+    width: 15%;
+  }
+  /* active class add a dynamic fct to btns */
+  .active {
+    width: 50%;
+  }
+
+  .author-filter,
+  .genre-filter {
+    width: 100%;
+
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* wrap: flex items will be on multiple line */
+    justify-content: space-around;
+  }
+}
+
+/* footer */
+.footer {
+  background: var(--clr-charcoal);
+
+  color: var(--clr-light-grey);
+  height: 4rem;
+  text-align: center;
+  padding-top: 1rem;
+  position: relative;
+}
