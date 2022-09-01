@@ -10,7 +10,7 @@ const Book = ({ title, author, genre, photo, desc, rating, review }) => {
   //fct to fix multiple genres display and onClick problem I checked if it was anArray if true use join method
   const Meli = (e) => {
     if (Array.isArray(e) === true) {
-      // genre are display without space
+      // genre are display without space, so added '' and ,
       return e.join(', ');
     }
     if (Array.isArray(e) === false) {

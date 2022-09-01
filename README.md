@@ -9,6 +9,7 @@ Hell Yay!
 ### `App`
 
 Include most of my useState and some filtering fct
+This was the first component I started to work on.
 
 ### `Navbar`
 
@@ -17,7 +18,7 @@ I didn't use react router for the link but scroolIntoView
 
 ### `Book`
 
-Render the different books
+Render the different book. The fct readMore I use an equivalent code from another project (from John Smilga React course)
 
 ### `Surprise`
 

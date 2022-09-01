@@ -16,7 +16,8 @@ import {
 
 const Buttons = ({ genres, filteredGenres }) => {
   const GenresIcons = (e) => {
-    //  I stored the value inside a var to convert it to lowerCase
+    //  I stored the value inside a var low to convert it to lowerCase
+    // then I checking the value and display a different icons
     let low = e.toLowerCase();
     if (low === 'all') {
       return <GiBookPile className='genres-icons' />;
