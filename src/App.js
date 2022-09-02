@@ -50,10 +50,13 @@ function App() {
   const filteredAuthors = (indAuthor) => {
     if (indAuthor === 'all') {
       setData(bookData);
+      Scrollback();
       return;
     }
     const newAuthor = bookData.filter((item) => item.author === indAuthor);
     setData(newAuthor);
+    Scrollback();
+    return;
   };
 
   // fct to scroll back when clicking on a button genres/authors

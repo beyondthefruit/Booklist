@@ -161,6 +161,9 @@ nav {
 }
 
 /* books and book */
+.books {
+  width: 100%;
+}
 
 .single-book {
   margin: 2rem 0 1rem;
@@ -213,7 +216,7 @@ nav {
 
 .description {
   font-size: 1.1rem;
-  padding: 0.8rem 0 0 0;
+  padding: 0.8rem 0.5rem 0 0.5rem;
 }
 
 .read {
@@ -237,7 +240,7 @@ nav {
 }
 
 .review {
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 0.5rem 1rem 0.5rem;
   color-scheme: var(--clr-charcoal);
 }
 
@@ -304,7 +307,7 @@ nav {
 }
 @media screen and (min-width: 900px) {
   .single-book {
-    width: 95vw;
+    width: 90vw;
     display: grid;
     grid-template-columns: 3, 1fr;
     grid-template-rows: 4, 1fr;
@@ -372,9 +375,10 @@ nav {
     font-size: 2.3rem;
   }
 }
+
 @media screen and (min-width: 1600px) {
   .single-book img {
-    width: 80%;
+    width: 95%;
     height: 100%;
     grid-row: 1/4;
     padding: 2rem 0 2rem 2rem;
@@ -414,7 +418,7 @@ nav {
 }
 
 .book-selection {
-  height: 86vh;
+  height: 105vh;
 }
 
 .pick {
@@ -480,19 +484,19 @@ nav {
 
 @media screen and (min-width: 760px) {
   .book-selection {
-    height: 45vh;
+    height: 70vh;
   }
 }
 
 @media screen and (min-width: 820px) {
   .book-selection {
-    height: 65vh;
+    height: 75vh;
   }
 }
 
 @media screen and (min-width: 960px) {
   .book-selection {
-    height: 60vh;
+    height: 80vh;
   }
 
   .pick-title {
