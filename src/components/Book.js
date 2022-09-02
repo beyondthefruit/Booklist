@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { GiStarsStack } from 'react-icons/gi';
 import { ImStarFull, ImStarHalf, ImStarEmpty } from 'react-icons/im';
+import { GiFountainPen, GiBookCover } from 'react-icons/gi';
 
 //component to render my books
 
@@ -24,8 +25,14 @@ const Book = ({ title, author, genre, photo, desc, rating, review }) => {
       <div className='information'>
         <h3 className='book-title'>{title}</h3>
         <div className='title-genre'>
-          <p className='author'>{author}</p>
-          <p className='genre'>{Meli(genre)}</p>
+          <p className='author'>
+            <GiFountainPen className='book-icons' />
+            {author}
+          </p>
+          <p className='genre'>
+            <GiBookCover className='book-icons' />
+            {Meli(genre)}
+          </p>
         </div>
         <p className='description'>
           {readMore ? desc : `${desc.substring(0, 200)}...`}{' '}
@@ -36,7 +43,7 @@ const Book = ({ title, author, genre, photo, desc, rating, review }) => {
 
         <div className='review'>
           <h4>My review</h4>
-          <p>{review}</p>
+          <p className='review-bla'>{review}</p>
           <p className='rating'>
             {rating}
 

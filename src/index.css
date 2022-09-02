@@ -190,19 +190,25 @@ nav {
 }
 
 .title-genre {
-  display: flex;
-  justify-content: space-around;
   padding-bottom: 0.5rem;
 }
 .title-genre p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--clr-charcoal);
   padding-right: 0.5rem;
   font-weight: 350;
 }
 
+.author,
 .genre {
-  margin-right: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.book-icons {
+  font-size: 1rem;
+  color: var(--clr-burgundy);
+  margin-right: 0.5rem;
 }
 
 .description {
@@ -256,31 +262,41 @@ nav {
   .single-book {
     width: 90vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: 4, 1fr;
     gap: 10px;
     /* grid-auto-rows: minmax(30%, auto); */
   }
+
   .single-book img {
     grid-column: 1;
     grid-row: 2/3;
     width: 100%;
     padding: 0;
   }
+
   .information {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 1/4;
   }
+
   .book-title {
     font-size: 2rem;
     text-align: center;
     padding: 1rem;
     color: var(--clr-charcoal);
   }
+
+  .title-genre {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .title-genre p {
     font-size: 1.2rem;
     color: var(--clr-charcoal);
   }
+
   .read {
     width: 5rem;
     font-size: 0.9rem;
@@ -290,8 +306,8 @@ nav {
   .single-book {
     width: 95vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 4, 1frini;
+    grid-template-columns: 3, 1fr;
+    grid-template-rows: 4, 1fr;
     gap: 10px;
   }
 
