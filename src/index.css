@@ -48,8 +48,7 @@ a {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   letter-spacing: var(--spacing);
   text-transform: capitalize;
   line-height: 1.25;
@@ -164,7 +163,7 @@ nav {
 /* books and book */
 
 .single-book {
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
   padding: 0.5rem;
   border-radius: 1%;
   border: 0.2rem solid var(--clr-red);
@@ -199,6 +198,7 @@ nav {
   font-size: 1.1rem;
   color: var(--clr-charcoal);
   padding-right: 0.5rem;
+  font-weight: 350;
 }
 
 .genre {
@@ -211,11 +211,13 @@ nav {
 }
 
 .read {
-  width: 4rem;
+  width: 4.5rem;
   background-color: var(--clr-pink);
   color: var(--clr-black);
   text-transform: capitalize;
-  /* border: 0.1rem solid var(--clr-platinum); */
+  padding: 0.2rem;
+  border-radius: 2%;
+  border: 0.1rem solid var(--clr-charcoal);
   font-size: 0.7rem;
   margin-top: 0;
   transition: var(--transition);
@@ -233,17 +235,19 @@ nav {
   color-scheme: var(--clr-charcoal);
 }
 
-.review p {
+.review-bla {
   padding: 1rem 0 0 0;
 }
 
 .rating {
   font-size: 1.7rem;
   width: auto;
+  height: auto;
 }
 
 .icons {
-  font-size: 1.7rem;
+  font-size: 2.3rem;
+  padding-top: 0.6rem;
   margin: 0.5rem 0 0 0.5rem;
   color: var(--clr-burgundy);
 }
@@ -253,8 +257,9 @@ nav {
     width: 90vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    grid-auto-rows: minmax(30%, auto);
+    /* grid-auto-rows: minmax(30%, auto); */
   }
   .single-book img {
     grid-column: 1;
@@ -286,13 +291,13 @@ nav {
     width: 95vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 4, 1frini;
     gap: 10px;
-    grid-auto-rows: minmax(30%, auto);
   }
 
   .single-book img {
     grid-column: 1;
-    grid-row: 1/4;
+    grid-row: 2/3;
     height: 35rem;
     width: 90%;
     padding: 1rem 0 1rem 1rem;
@@ -300,8 +305,13 @@ nav {
 
   .information {
     text-align: center;
-    padding-right: 2rem;
+    padding: 1rem 2rem 0 0;
   }
+
+  .title-genre {
+    padding: 1.5rem 0 1.5rem 0;
+  }
+
   .book-title {
     font-size: 2.5rem;
     text-align: center;
@@ -317,12 +327,63 @@ nav {
     font-size: 1.3rem;
     padding: 0 1rem;
   }
+
+  .read {
+    width: 5.5rem;
+    padding: 0.3rem;
+    border-radius: 3%;
+    border: 0.15rem solid var(--clr-charcoal);
+    font-size: 0.9rem;
+  }
   .review h4 {
     font-size: 1.2rem;
   }
 
-  .review p {
+  .review-bla {
     font-size: 1.1rem;
+  }
+
+  .rating {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .rating p {
+    font-size: 10rem;
+    font-weight: 600;
+  }
+
+  .icons {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .single-book img {
+    width: 80%;
+    height: 100%;
+    grid-row: 1/4;
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .book-title {
+    font-size: 3rem;
+  }
+
+  .information {
+    padding-top: 4rem;
+  }
+
+  .title-genre {
+    padding: 2rem 0 2rem 0;
+  }
+  .title-genre p {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 1.4rem;
+    padding: 1.5rem 0 0;
+  }
+  .review {
+    padding: 3rem 0;
   }
 }
 
@@ -333,6 +394,7 @@ nav {
   background: var(--clr-charcoal);
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
 }
 
 .book-selection {
@@ -358,13 +420,14 @@ nav {
 }
 
 .pick-book {
-  padding: 0.5rem;
+  /* padding-top: 2rem; */
   border-radius: 5%;
   border: 0.1rem solid var(--clr-blue);
   box-shadow: var(--clr-black-smokey);
   background: var(--clr-ecru);
   width: 35%;
   height: auto;
+  padding: 0.5rem;
   text-align: center;
   transition: var(--transition);
 }
@@ -399,6 +462,37 @@ nav {
   position: absolute;
 }
 
+@media screen and (min-width: 760px) {
+  .book-selection {
+    height: 45vh;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .book-selection {
+    height: 65vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .book-selection {
+    height: 60vh;
+  }
+
+  .pick-title {
+    padding: 1.5rem 0 2rem;
+    font-size: 1.8rem;
+  }
+  .pick-me {
+    margin-top: 2rem;
+  }
+
+  /* active class add a dynamic fct to btns */
+  .active {
+    width: 50%;
+  }
+}
+
 /* author component & buttons component */
 .author-filter,
 .genre-filter {
@@ -417,7 +511,7 @@ nav {
   width: 20rem;
   height: 2rem;
   background-color: var(--clr-champagne);
-  /* color: var(--clr-burgundy); */
+  /* padding-bottom: 0.2rem; */
   margin: 0.5rem;
   font-size: 1.1rem;
 }
@@ -427,46 +521,22 @@ nav {
   transform: scale(1.05);
 }
 
-.genre-btn::after {
-  background-color: blue;
-}
-
 .genres-icons {
   margin-right: 1rem;
+
   font-size: 1.2rem;
   color: var(--clr-burgundy);
 }
 
-@media screen and (min-width: 760px) {
-  .book-selection {
-    height: 45vh;
-  }
-}
+.author-filter,
+.genre-filter {
+  width: 100%;
 
-@media screen and (min-width: 820px) {
-  .book-selection {
-    height: 65vh;
-  }
-
-  .pick-book {
-    padding: 0.5rem;
-    width: 15%;
-  }
-  /* active class add a dynamic fct to btns */
-  .active {
-    width: 50%;
-  }
-
-  .author-filter,
-  .genre-filter {
-    width: 100%;
-
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    /* wrap: flex items will be on multiple line */
-    justify-content: space-around;
-  }
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* wrap: flex items will be on multiple line */
+  justify-content: space-around;
 }
 
 /* footer */

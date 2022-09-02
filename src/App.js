@@ -1,7 +1,7 @@
 import { useState } from 'react';
 // import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import bookData from './components/data';
+import bookData from './data';
 import Books from './components/Books';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
@@ -28,11 +28,11 @@ function App() {
   const [data, setData] = useState(bookData);
   const [genres, setGenres] = useState(allGenre); // filter btns by genre
   const [authors, SetAuthor] = useState(allAuthor); //to filter author
-  const [btns, setBtns] = useState([]);
 
   const filteredGenres = (indGenre) => {
     if (indGenre === 'all') {
       setData(bookData);
+      Scrollback();
       return;
     }
 
@@ -43,6 +43,8 @@ function App() {
 
     //really important to create a new array with original value (bookData != allGenre)
     setData(newGenre); //we use useState setData and apply the new const
+    Scrollback();
+    return;
   };
 
   const filteredAuthors = (indAuthor) => {
@@ -54,18 +56,29 @@ function App() {
     setData(newAuthor);
   };
 
+  // fct to scroll back when clicking on a button genres/authors
+  const Scrollback = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+  // const Scrollback = () => {
+  //   const wrapou = document.querySelector('#single-wrap');
+  //   wrapou.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  // };
+
   return (
     <>
       <Navbar />
       <main>
-        <Books data={data} setData={setData} />
+        <Books data={data} />
         <div className='underline'></div>
         <PickBook
           genres={genres}
           filteredGenres={filteredGenres}
           filteredAuthors={filteredAuthors}
           authors={authors}
-          setBtns={setBtns}
         />
       </main>
       <Footer />
