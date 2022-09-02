@@ -220,7 +220,7 @@ nav {
 }
 
 .read {
-  width: 4.5rem;
+  width: 5rem;
   background-color: var(--clr-pink);
   color: var(--clr-black);
   text-transform: capitalize;
