@@ -1,5 +1,5 @@
 import { useState } from 'react';
-// import { Routes, Route } from 'react-router-dom';
+
 import './App.css';
 import bookData from './data';
 import Books from './components/Books';
@@ -32,7 +32,7 @@ function App() {
   const filteredGenres = (indGenre) => {
     if (indGenre === 'all') {
       setData(bookData);
-      Scrollback();
+      scrollBack();
       return;
     }
 
@@ -43,33 +43,29 @@ function App() {
 
     //really important to create a new array with original value (bookData != allGenre)
     setData(newGenre); //we use useState setData and apply the new const
-    Scrollback();
+    scrollBack();
     return;
   };
 
   const filteredAuthors = (indAuthor) => {
     if (indAuthor === 'all') {
       setData(bookData);
-      Scrollback();
+      scrollBack();
       return;
     }
     const newAuthor = bookData.filter((item) => item.author === indAuthor);
     setData(newAuthor);
-    Scrollback();
+    scrollBack();
     return;
   };
 
   // fct to scroll back when clicking on a button genres/authors
-  const Scrollback = () => {
+  const scrollBack = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
   };
-  // const Scrollback = () => {
-  //   const wrapou = document.querySelector('#single-wrap');
-  //   wrapou.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  // };
 
   return (
     <>

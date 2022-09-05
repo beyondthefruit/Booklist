@@ -26,7 +26,7 @@ const bookData = [
     id: 3,
     title: 'Life Of Pi',
     author: 'Yann Nartel',
-    genre: ['Phylosophical'],
+    genre: ['Philosophy'],
     photo:
       'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631251689i/4214.jpg',
 
@@ -39,7 +39,7 @@ const bookData = [
     id: 4,
     title: '1984',
     author: 'George Orwell',
-    genre: ['Phylosophical'],
+    genre: ['Philosophy'],
     photo:
       'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg',
 

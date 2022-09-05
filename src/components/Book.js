@@ -9,7 +9,7 @@ const Book = ({ title, author, genre, photo, desc, rating, review }) => {
   const [readMore, setReadMore] = useState(false);
 
   //fct to fix multiple genres display and onClick problem I checked if it was anArray if true use join method
-  const Meli = (e) => {
+  const meli = (e) => {
     if (Array.isArray(e) === true) {
       // genre are display without space, so added '' and ,
       return e.join(', ');
@@ -31,7 +31,7 @@ const Book = ({ title, author, genre, photo, desc, rating, review }) => {
           </p>
           <p className='genre'>
             <GiBookCover className='book-icons' />
-            {Meli(genre)}
+            {meli(genre)}
           </p>
         </div>
         <p className='description'>

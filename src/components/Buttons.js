@@ -15,7 +15,7 @@ import {
 //buttons use to display the genres btns
 
 const Buttons = ({ genres, filteredGenres }) => {
-  const GenresIcons = (e) => {
+  const genresIcons = (e) => {
     //  I stored the value inside a var low to convert it to lowerCase
     // then I checking the value and display a different icons
     let low = e.toLowerCase();
@@ -25,7 +25,7 @@ const Buttons = ({ genres, filteredGenres }) => {
     if (low === 'science fiction') {
       return <GiAlienStare className='genres-icons' />;
     }
-    if (low === 'phylosophical') {
+    if (low === 'philosophy') {
       return <GiAnatomy className='genres-icons' />;
     }
     if (low === 'fantasy') {
@@ -59,7 +59,7 @@ const Buttons = ({ genres, filteredGenres }) => {
             onClick={() => filteredGenres(individualGenre)}
           >
             {/* fcc icons */}
-            {GenresIcons(individualGenre)}
+            {genresIcons(individualGenre)}
             {individualGenre}
           </button>
         );

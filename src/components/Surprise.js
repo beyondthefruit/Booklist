@@ -6,13 +6,7 @@ import Buttons from './Buttons';
 // I used 2 methods to toggle these 2 btns, one by using ! the other one using useRef
 // I also used ternary operator
 
-const PickBook = ({
-  genres,
-  filteredGenres,
-  authors,
-  filteredAuthors,
-  setBtns,
-}) => {
+const PickBook = ({ genres, filteredGenres, authors, filteredAuthors }) => {
   const genresRef = useRef(null);
   const authorsRef = useRef(null);
 
@@ -20,30 +14,30 @@ const PickBook = ({
   const [isAuthorsActive, setAuthorsActive] = useState(false);
 
   // following fct use to toggle the genres btns and authors
-  const ToggleGenre = () => {
+  const toggleGenre = () => {
     if (isGenresActive === false) {
       // to prevent the toggling if class is already acyive
       setGenresActive(!isGenresActive);
       setAuthorsActive(!isAuthorsActive);
-      DisplayGenres();
-      DisplayAuthors();
+      displayGenres();
+      displayAuthors();
     }
   };
-  const ToggleAuthors = () => {
+  const toggleAuthors = () => {
     if (isAuthorsActive === false) {
       setAuthorsActive(!isAuthorsActive);
       setGenresActive(!isGenresActive);
 
-      DisplayAuthors();
-      DisplayGenres();
+      displayAuthors();
+      displayGenres();
     }
   };
 
-  //by purpose I decided to use another method this time & I wanted to use useRef, might have been faster with a toggle
-  const DisplayGenres = () => {
+  //by purpose I decided to use another method this time & I wanted to use useRef, might have been faster with a inline toggle
+  const displayGenres = () => {
     genresRef.current.classList.toggle('nonactived');
   };
-  const DisplayAuthors = () => {
+  const displayAuthors = () => {
     authorsRef.current.classList.toggle('nonactived');
   };
 
@@ -57,14 +51,14 @@ const PickBook = ({
             className={'pick-book ' + (isGenresActive ? 'active' : null)}
             // meams that we have a class of pick-book & CHECK if isGenresActive
 
-            onClick={ToggleGenre}
+            onClick={toggleGenre}
           >
             <h4>Genres</h4>
           </button>
 
           <button
             className={'pick-book ' + (isAuthorsActive ? 'active' : null)}
-            onClick={ToggleAuthors}
+            onClick={toggleAuthors}
           >
             <h4>Authors</h4>
           </button>

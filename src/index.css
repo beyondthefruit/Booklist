@@ -324,7 +324,7 @@ nav {
     grid-column: 1;
     grid-row: 2/3;
     height: 35rem;
-    width: 300px;
+    width: 320px;
     padding: 1rem 0 1rem 1rem;
   }
 
@@ -394,7 +394,7 @@ nav {
 
 @media screen and (min-width: 1600px) {
   .single-book img {
-    width: 400px;
+    width: 430px;
     height: 700px;
     grid-row: 1/4;
     padding: 2rem 0 2rem 2rem;
