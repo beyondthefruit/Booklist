@@ -191,6 +191,18 @@ const bookData = [
     review:
       'My least favourite book of the Cantos, still a must to read to comclude the serie',
   },
+  {
+    id: 17,
+    title: 'Cloud Atlas',
+    author: 'David Mitchell',
+    genre: ['Science Fiction'],
+    photo:
+      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/5293/9781529324983.jpg',
+    desc: "Six interlocking lives - one amazing adventure. In a narrative that circles the globe and reaches from the 19th century to a post-apocalyptic future, Cloud Atlas erases the boundaries of time, genre and language to offer an enthralling vision of humanity's will to power, and where it will lead us.",
+    rating: 9,
+    review:
+      'I watched the movie a couple of years ago and I remember that I loved it. The book was definitely a great read',
+  },
 ];
 
 export default bookData;

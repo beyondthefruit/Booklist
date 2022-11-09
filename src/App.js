@@ -27,7 +27,7 @@ function App() {
   //useState must be placed in fct App
   const [data, setData] = useState(bookData);
   const [genres, setGenres] = useState(allGenre); // filter btns by genre
-  const [authors, SetAuthor] = useState(allAuthor); //to filter author
+  const [authors, SetAuthor] = useState(allAuthor); //to filter au
 
   const filteredGenres = (indGenre) => {
     if (indGenre === 'all') {

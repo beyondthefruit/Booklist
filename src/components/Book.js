@@ -19,6 +19,8 @@ const Book = ({ title, author, genre, photo, desc, rating, review }) => {
     }
   };
 
+  //see conditional rendering ? :
+
   return (
     <article className='single-book' id='single-wrap'>
       <img src={photo} alt={title} />
