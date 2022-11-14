@@ -203,6 +203,30 @@ const bookData = [
     review:
       'I watched the movie a couple of years ago and I remember that I loved it. The book was definitely a great read',
   },
+  {
+    id: 18,
+    title: 'Super-Power',
+    author: 'Ross Garnault',
+    genre: ['Non Fiction'],
+    photo:
+      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/7606/9781760642099.jpg',
+    desc: "'The fog of Australian politics on climate change has obscured a fateful reality- Australia has the potential to be an economic superpower of the future post-carbon world.'-Ross Garnaut We have unparalleled renewable energy resources. We also have the necessary scientific skills. Australia could be the natural home for an increasing proportion of global industry. But how do we make this happen?.",
+    rating: 8,
+    review:
+      'This book is at times complex to read, some passages are very technical with extensive data. Is there a country better placed than Australia to lead the transition to a post-carbon world? Without a doubt, no. I wish politics could stop playing politics and trust scientific.',
+  },
+  // {
+  //   id: 17,
+  //   title: 'Cloud Atlas',
+  //   author: 'David Mitchell',
+  //   genre: ['Science Fiction'],
+  //   photo:
+  //     'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/5293/9781529324983.jpg',
+  //   desc: "Six interlocking lives - one amazing adventure. In a narrative that circles the globe and reaches from the 19th century to a post-apocalyptic future, Cloud Atlas erases the boundaries of time, genre and language to offer an enthralling vision of humanity's will to power, and where it will lead us.",
+  //   rating: 9,
+  //   review:
+  //     'I watched the movie a couple of years ago and I remember that I loved it. The book was definitely a great read',
+  // },
 ];
 
 export default bookData;

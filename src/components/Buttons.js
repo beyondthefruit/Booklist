@@ -10,6 +10,7 @@ import {
   GiLockedChest,
   GiOctopus,
   GiBackstab,
+  GiArchiveResearch,
 } from 'react-icons/gi';
 
 //buttons use to display the genres btns
@@ -45,6 +46,9 @@ const Buttons = ({ genres, filteredGenres }) => {
     }
     if (low === 'thriller') {
       return <GiBackstab className='genres-icons' />;
+    }
+    if (low === 'non fiction') {
+      return <GiArchiveResearch className='genres-icons' />;
     }
   };
 
