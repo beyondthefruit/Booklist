@@ -215,6 +215,17 @@ const bookData = [
     review:
       'This book is at times complex to read, some passages are very technical with extensive data. Is there a country better placed than Australia to lead the transition to a post-carbon world? Without a doubt, no. I wish politics could stop playing politics and trust scientific.',
   },
+  {
+    id: 19,
+    title: 'On the Trail of Genghis Khan',
+    author: 'Tim Cope',
+    genre: ['Non Fiction'],
+    photo:
+      'https://timcopejourneys.com/wp-content/uploads/2019/09/paperbackcover-copy.png',
+    desc: 'Inspired by a desire to understand the nomadic way of life, Australian adventurer Tim Cope embarked on a remarkable journey: 6,000 miles on horseback across the Eurasian steppe from Mongolia, through Kazakhstan, Russia, and the Ukraine, to Hungary retracing the trail of Genghis Khan. From novice rider to travelling three years in the saddle, – accompanied by his Kazakh dog, Tigon – Tim learnt to fend off wolves and would-be horse-thieves, and grapple with the extremes of the steppe as he crossed sub-zero plateaux, the scorching deserts of Kazakhstan and the high-mountain passes of the Carpathians.',
+    rating: 9,
+    review: 'An incredible adventure, going in a 6000kms adventure on his own',
+  },
   // {
   //   id: 17,
   //   title: 'Cloud Atlas',
