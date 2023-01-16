@@ -224,7 +224,20 @@ const bookData = [
       'https://timcopejourneys.com/wp-content/uploads/2019/09/paperbackcover-copy.png',
     desc: 'Inspired by a desire to understand the nomadic way of life, Australian adventurer Tim Cope embarked on a remarkable journey: 6,000 miles on horseback across the Eurasian steppe from Mongolia, through Kazakhstan, Russia, and the Ukraine, to Hungary retracing the trail of Genghis Khan. From novice rider to travelling three years in the saddle, – accompanied by his Kazakh dog, Tigon – Tim learnt to fend off wolves and would-be horse-thieves, and grapple with the extremes of the steppe as he crossed sub-zero plateaux, the scorching deserts of Kazakhstan and the high-mountain passes of the Carpathians.',
     rating: 9,
-    review: 'An incredible adventure, going in a 6000kms adventure on his own',
+    review:
+      'An incredible adventure, going in a 6000kms journey on his own, with little to no horse riding experience',
+  },
+  {
+    id: 20,
+    title: 'I am Pilgrim',
+    author: 'Terry',
+    genre: ['Fiction'],
+    photo:
+      'https://www.booktopia.com.au/covers/big/9780552160964/0000/i-am-pilgrim.jpg',
+    desc: "The astonishing story of one man's breakneck race against time to save America from oblivion. A FATHER PUBLICLY BEHEADED. Killed in the blistering heat of a Saudi Arabian public square. A YOUNG WOMAN DISCOVERED. All of her identifying characteristics dissolved by acid. A SYRIAN BIOTECH EXPERT FOUND EYELESS. Dumped in a Damascus junkyard. SMOULDERING HUMAN REMAINS. Abandoned on a remote mountainside in Afghanistan.",
+    rating: 9,
+    review:
+      'My first spy/thriller, while focusing mainly on the life of the Pilgrim, the author succeed in giving a human side to the worst terrorist, beautifully written',
   },
   // {
   //   id: 17,
