@@ -11,6 +11,8 @@ import {
   GiOctopus,
   GiBackstab,
   GiArchiveResearch,
+  GiTheaterCurtains,
+  GiPublicSpeaker,
 } from 'react-icons/gi';
 
 //buttons use to display the genres btns
@@ -49,6 +51,12 @@ const Buttons = ({ genres, filteredGenres }) => {
     }
     if (low === 'non fiction') {
       return <GiArchiveResearch className='genres-icons' />;
+    }
+    if (low === 'political satire') {
+      return <GiPublicSpeaker className='genres-icons' />;
+    }
+    if (low === 'fiction') {
+      return <GiTheaterCurtains className='genres-icons' />;
     }
   };
 
