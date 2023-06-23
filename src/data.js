@@ -189,7 +189,7 @@ const bookData = [
     desc: 'The time of reckoning has arrived. As a final genocidal Crusade threatens to enslave humanity forever, a new messiah has come of age. She is Aenea and she has undergone a strange apprenticeship to those known as the Others. Now her protector, Raul Endymion, one-time shepherd and convicted murderer, must help her deliver her startling message to her growing army of disciples. But first they must embark on a final spectacular mission to discover the underlying meaning of the universe itself. They have been followed on their journey by the mysterious Shrike--monster, angel, killing machine--who is about to reveal the long-held secret of its origin and purpose. And on the planet of Hyperion, where the story first began, the final revelation will be delivered--an apocalyptic message that unlocks the secrets of existence and the fate of humankind in the galaxy.',
     rating: 7,
     review:
-      'My least favourite book of the Cantos, still a really good book and a must to read to conclude the serie',
+      'My least favourite book of the Cantos, but still a really good book and a must to read to conclude the series',
   },
   {
     id: 17,
@@ -201,7 +201,7 @@ const bookData = [
     desc: "Six interlocking lives - one amazing adventure. In a narrative that circles the globe and reaches from the 19th century to a post-apocalyptic future, Cloud Atlas erases the boundaries of time, genre and language to offer an enthralling vision of humanity's will to power, and where it will lead us.",
     rating: 9,
     review:
-      'I watched the movie a couple of years ago and I remember that I loved it. The book was definitely a great read',
+      'I watched the movie a couple of years ago and I loved it. The book was definitely a great read, the story is complex and follows different persons at different times in history.',
   },
   {
     id: 18,
@@ -213,7 +213,7 @@ const bookData = [
     desc: "'The fog of Australian politics on climate change has obscured a fateful reality- Australia has the potential to be an economic superpower of the future post-carbon world.'-Ross Garnaut We have unparalleled renewable energy resources. We also have the necessary scientific skills. Australia could be the natural home for an increasing proportion of global industry. But how do we make this happen?.",
     rating: 8,
     review:
-      'This book is at times complex to read, some passages are very technical with extensive data. Is there a country better placed than Australia to lead the transition to a post-carbon world? Without a doubt, no. I wish politics could stop playing politics and trust scientific.',
+      ' Is there a country better placed than Australia to lead the transition to a post-carbon world? Without a doubt, no. I wish politics could stop playing politics, trust science and take action to leave a better world for future generations. This book is at times complex to read, I found that there was too much technical information with extensive data. Of course, those data are here to support the book.',
   },
   {
     id: 19,
@@ -225,7 +225,7 @@ const bookData = [
     desc: 'Inspired by a desire to understand the nomadic way of life, Australian adventurer Tim Cope embarked on a remarkable journey: 6,000 miles on horseback across the Eurasian steppe from Mongolia, through Kazakhstan, Russia, and the Ukraine, to Hungary retracing the trail of Genghis Khan. From novice rider to travelling three years in the saddle, – accompanied by his Kazakh dog, Tigon – Tim learnt to fend off wolves and would-be horse-thieves, and grapple with the extremes of the steppe as he crossed sub-zero plateaux, the scorching deserts of Kazakhstan and the high-mountain passes of the Carpathians.',
     rating: 9,
     review:
-      'An incredible adventure, going in a 6000kms journey on his own, with little to no horse riding experience',
+      'An incredible adventure, going on a 6000 km journey on his own, with little to no horse riding experience. Tim, and his dog Tigon, managed to survive the extreme condition of the steppe.',
   },
   {
     id: 20,
@@ -237,7 +237,7 @@ const bookData = [
     desc: "The astonishing story of one man's breakneck race against time to save America from oblivion. A FATHER PUBLICLY BEHEADED. Killed in the blistering heat of a Saudi Arabian public square. A YOUNG WOMAN DISCOVERED. All of her identifying characteristics dissolved by acid. A SYRIAN BIOTECH EXPERT FOUND EYELESS. Dumped in a Damascus junkyard. SMOULDERING HUMAN REMAINS. Abandoned on a remote mountainside in Afghanistan.",
     rating: 9,
     review:
-      'My first spy/thriller, while focusing mainly on the life of the Pilgrim, the author succeed in giving a human side to the worst terrorist ever. I liked how the investigations were connected, beautifully written',
+      'My first spy/thriller, while focusing mainly on the life of the Pilgrim, the author succeeds in giving a human side to the worst terrorist ever. I liked how the investigations were connected, beautifully written.',
   },
   {
     id: 21,
@@ -249,7 +249,18 @@ const bookData = [
     desc: 'Mr Jones of Manor Farm is so lazy and drunken that one day he forgets to feed his livestock. The ensuing rebellion under the leadership of the pigs Napoleon and Wellington leads to the animals taking over the farm. Vowing to eliminate the terrible inequities of the farmyard, the renamed Animal Farm is organized to benefit all who walk on four legs. But as time passes, the ideals of the rebellion are corrupted, then forgotten. And something new and unexpected emerges ...',
     rating: 9,
     review:
-      'This is a really good book, easy to read and easily understood on how communist countries/ The leader, keep explaining how harvest are getting bigger and how life is far more pleasant than when their were living under the tyranny of humans. / History keep repeating itself.',
+      "This is a really good book, easy to read and easily understood on how communist and autocratic countries take advantage of the working class. The pigs' Napoleon and Snowball decry the elites to the point of revolt to finally replace the elites and behave exactly as before. The leaders, keep brainwashing and repeating how harvests are getting bigger and how life is far more pleasant now than when they were living under the tyranny of humans. History repeats itself, 80 years later this book should be read by anyone but is banned in many countries..",
+  },
+  {
+    id: 22,
+    title: 'Ilium',
+    author: 'Dan Simmons',
+    genre: ['Science Fiction', 'Fantasy'],
+    photo:
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390894862i/3973.jpg',
+    desc: 'The Trojan War rages at the foot of Olympos Mons on Mars—observed and influenced from on high by Zeus and his immortal family—and twenty-first-century professor Thomas Hockenberry is there to play a role in the insidious private wars of vengeful gods and goddesses. On Earth, a small band of the few remaining humans pursues a lost past and devastating truth—as four sentient machines depart from Jovian space to investigate, perhaps terminate, the potentially catastrophic emissions emanating from a mountaintop miles above the terraformed surface of the Red Planet.',
+    rating: '',
+    review: "Current reading, it's going to be good",
   },
   // {
   //   id: 17,
