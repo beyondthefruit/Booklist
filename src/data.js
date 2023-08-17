@@ -80,7 +80,7 @@ const bookData = [
     author: 'George R.R Martin',
     genre: ['Horror', 'Science Fiction', 'Short Stories', 'Fantasy'],
     photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/7528/9780752890081.jpg',
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1373718068i/6570652.jpg',
     desc: "Gathered here in Volume I are the very best of George R.R. Martin's early works, including never-before-published fan pieces, his Hugo, Nebula, and Bram Stoker Award-winning stories plus the original novella The Ice Dragon, from which Martin's New York Times bestselling children's book of the same title originated. A dazzling array that features extensive author commentary, Dreamsongs, Volume I, is the perfect collection for both Martin devotees and a new generation of fans.",
     rating: 9,
     review:
@@ -91,8 +91,7 @@ const bookData = [
     title: 'Dreamsong Volume 2',
     author: 'George R.R Martin',
     genre: ['Horror', 'Science Fiction', 'Short Stories', 'Fantasy'],
-    photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/7528/9780752890098.jpg',
+    photo: 'https://m.media-amazon.com/images/I/5117bFAZluL.jpg',
     desc: 'Whether writing about werewolves, wizards, or outer space, George R.R. Martin is renowned for his versatility and expansive talent, highlighted in this dazzling collection. Included here, in Volume II, are acclaimed stories such as the World Fantasy Award-winner The Skin Trade; as well as the first novella in the Ice and Fire universe, The Hedge Knight;, plus two never-before-published screenplays. Featuring extensive author commentary, Dreamsongs, Volume II, is an invaluable chronicle of a writer at the height of his creativity — and an unforgettable reading experience for fans old and new.',
     rating: 9,
     review:
@@ -105,7 +104,7 @@ const bookData = [
     author: 'Joel Satore',
     genre: ['Photo'],
     photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/4262/9781426217777.jpg',
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1471289368i/30719045.jpg',
     desc: "The lush and unique photography in this book represents National Geographic's Photo Ark, a major initiative and lifelong project by photographer Joel Sartore to make portraits of the world's animals-especially those that are endangered. His powerful message, conveyed with humor, compassion, and art: to know these animals is to save them. Sartore is circling the globe, visiting zoos and wildlife rescue centers to create studio portraits of 12,000 species, with an emphasis on those facing extinction. With a goal of photographing every animal in captivity in the world, he has photographed more than 6,000 already and now, thanks to a multi-year partnership with National Geographic, he may reach his goal. This book showcases his animal portraits: from tiny to mammoth, from the Florida grasshopper sparrow to the greater one-horned rhinoceros.",
     rating: 10,
     review:
@@ -129,7 +128,7 @@ const bookData = [
     author: 'Stieg Larson',
     genre: ['Thriller'],
     photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/8472/9781847245458.jpg',
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388191828i/6389276.jpg',
     desc: " The Girl with the Dragon Tattoo Harriet Vanger, a scion of one of Sweden’s wealthiest families disappeared without a trace more than forty years ago. All these years later, her aged uncle continues to try to discover what happened to her. He hires Mikael Blomkvist, a journalist recently sidelined by a libel conviction, to investigate. Blomkvist is aided by the pierced and tattooed computer prodigy Lisbeth Salander. Together they tap into a vein of unfathomable iniquity and astonishing corruption on their way to discovering the truth of Harriet Vanger’s fate. The Girl Who Played with Fire Mikael Blomkvist, now the crusading publisher of the magazine Millennium, has decided to run a story that will expose an extensive sex trafficking operation. On the eve of its publication, the two reporters responsible for the article are murdered, and the fingerprints found on the murder weapon belong to his friend Lisbeth Salander. Blomkvist, convinced of Salander’s innocence, plunges into an investigation of the murders. Meanwhile, Salander herself is drawn into a murderous game of cat and mouse, which forces her to face her dark past. The Girl Who Kicked the Hornet's Nest Lisbeth Salander lies in critical condition, a bullet wound to her head, in the intensive care unit of a Swedish city hospital. She’s fighting for her life in more ways than one: if and when she recovers, she’ll be taken back to Stockholm to stand trial for three murders. With the help of Mikael Blomkvist, she will not only have to prove her innocence, but also identify and denounce those in authority who have allowed the vulnerable, like herself, to suffer abuse and violence. On her own, she will plot revenge—against the man who tried to kill her, and against the corrupt government institutions that very nearly destroyed her life.",
     rating: 9,
     review:
@@ -153,7 +152,7 @@ const bookData = [
     author: 'Frank Herbert',
     genre: ['Science Fiction'],
     photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/5750/9780575070707.jpg',
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1419962914i/53764.jpg',
     desc: "Herbert's evocative, epic tales are set on the desert planet Arrakis, the focus for a complex political and military struggle with galaxy-wide repercussions. This volume includes the titles Dune, Dune Messiah and Children of Dune..",
     rating: 9,
     review:
@@ -177,7 +176,7 @@ const bookData = [
     author: 'Dan Simmons',
     genre: ['Science Fiction'],
     photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/5535/9780553572940.jpg',
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1329611385i/3977.jpg',
     desc: "Two hundred and seventy-four years after the fall of the WorldWeb in Fall of Hyperion, Raoul Endymion is sent on a quest. Retrieving Aenea from the Sphinx before the Church troops reach her is only the beginning. With help from a blue-skinned android named A. Bettik, Raoul and Aenea travel the river Tethys, pursued by Father Captain Frederico DeSoya, an influential warrior-priest and his troops. The shrike continues to make enigmatic appearances, and while many questions were raised in Hyperion and Fall of Hyperion, still more are raised here. Raoul's quest will continue.",
     rating: 8,
     review: 'The third book in the hyperion cantos',
@@ -188,7 +187,7 @@ const bookData = [
     author: 'Dan Simmons',
     genre: ['Science Fiction'],
     photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/5535/9780553572988.jpg',
+      'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1329609799i/11289.jpg',
     desc: 'The time of reckoning has arrived. As a final genocidal Crusade threatens to enslave humanity forever, a new messiah has come of age. She is Aenea and she has undergone a strange apprenticeship to those known as the Others. Now her protector, Raul Endymion, one-time shepherd and convicted murderer, must help her deliver her startling message to her growing army of disciples. But first they must embark on a final spectacular mission to discover the underlying meaning of the universe itself. They have been followed on their journey by the mysterious Shrike--monster, angel, killing machine--who is about to reveal the long-held secret of its origin and purpose. And on the planet of Hyperion, where the story first began, the final revelation will be delivered--an apocalyptic message that unlocks the secrets of existence and the fate of humankind in the galaxy.',
     rating: 8,
     review:
@@ -199,8 +198,7 @@ const bookData = [
     title: 'Cloud Atlas',
     author: 'David Mitchell',
     genre: ['Science Fiction'],
-    photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/5293/9781529324983.jpg',
+    photo: 'https://m.media-amazon.com/images/I/31l-Iu1XvDL.jpg',
     desc: "Six interlocking lives - one amazing adventure. In a narrative that circles the globe and reaches from the 19th century to a post-apocalyptic future, Cloud Atlas erases the boundaries of time, genre and language to offer an enthralling vision of humanity's will to power, and where it will lead us.",
     rating: 9,
     review:
@@ -211,8 +209,7 @@ const bookData = [
     title: 'Super-Power',
     author: 'Ross Garnault',
     genre: ['Non Fiction'],
-    photo:
-      'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/7606/9781760642099.jpg',
+    photo: 'https://m.media-amazon.com/images/I/71ZunozE+AL._AC_UL320_.jpg',
     desc: "'The fog of Australian politics on climate change has obscured a fateful reality- Australia has the potential to be an economic superpower of the future post-carbon world.'-Ross Garnaut We have unparalleled renewable energy resources. We also have the necessary scientific skills. Australia could be the natural home for an increasing proportion of global industry. But how do we make this happen?.",
     rating: 8,
     review:
