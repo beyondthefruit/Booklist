@@ -187,8 +187,8 @@ nav {
 }
 
 .single-book img {
-  height: 25rem;
-  width: 70%;
+  height: 400px;
+  width: 250px;
   padding: 2rem 0 0 0;
 }
 
@@ -219,10 +219,12 @@ nav {
   font-size: 1rem;
   color: var(--clr-burgundy);
   margin-right: 0.5rem;
+  top: 2px;
+  position: relative;
 }
 
 .description {
-  font-size: 1.1rem;
+  font-size: 1rem;
   /* padding: 0.8rem 0.5rem 0 0.5rem; */
 }
 
@@ -253,6 +255,7 @@ nav {
 
 .review-bla {
   padding: 1rem 0 0 0;
+  font-size: 1rem;
 }
 
 .rating {
@@ -266,6 +269,14 @@ nav {
   padding-top: 0.6rem;
   margin: 0.5rem 0 0 0.5rem;
   color: var(--clr-burgundy);
+  position: relative;
+  top: 3px;
+}
+@media screen and (min-width: 600px) {
+  .single-book img {
+    height: 450px;
+    width: 280px;
+  }
 }
 
 @media screen and (min-width: 760px) {
@@ -281,7 +292,8 @@ nav {
   .single-book img {
     grid-column: 1;
     grid-row: 2/3;
-    width: 250px;
+    height: 390px;
+    width: 240px;
     padding: 0;
   }
 
@@ -311,6 +323,9 @@ nav {
     width: 5.5rem;
     font-size: 0.9rem;
   }
+  .book-icons {
+    top: 5px;
+  }
 }
 @media screen and (min-width: 900px) {
   .single-book {
@@ -324,8 +339,8 @@ nav {
   .single-book img {
     grid-column: 1;
     grid-row: 2/3;
-    height: 35rem;
-    width: 320px;
+    height: 450px;
+    width: 285px;
     padding: 1rem 0 1rem 1rem;
   }
 
@@ -355,7 +370,7 @@ nav {
   }
 
   .description {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 0 1rem;
   }
 
@@ -376,7 +391,7 @@ nav {
   }
 
   .review-bla {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .rating {
@@ -392,11 +407,32 @@ nav {
     font-size: 2.3rem;
   }
 }
+@media screen and (min-width: 1200px) {
+  .single-book img {
+    height: 500px;
+    width: 320px;
+  }
+  .book-title {
+    font-size: 2.5rem;
+  }
+  .description {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+  .review h4 {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+  }
+
+  .review-bla {
+    font-size: 1.2rem;
+  }
+}
 
 @media screen and (min-width: 1600px) {
   .single-book img {
     width: 430px;
-    height: 700px;
+    height: 650px;
     grid-row: 1/4;
     padding: 2rem 0 2rem 2rem;
   }
@@ -421,11 +457,14 @@ nav {
     font-size: 1.5rem;
   }
   .description {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1.5rem 1rem 0;
   }
   .review {
     padding: 3rem 1rem 0;
+  }
+  .review-bla {
+    font-size: 1.3rem;
   }
 }
 
