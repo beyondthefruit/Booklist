@@ -9,7 +9,7 @@ const bookData = [
     desc: 'On the world called Hyperion, beyond the law of the Hegemony of Man, there waits the creature called the Shrike. There are those who worship it. There are those who fear it. And there are those who have vowed to destroy it. In the Valley of the Time Tombs, where huge, brooding structures move backward through time, the Shrike waits for them all. On the eve of Armageddon, with the entire galaxy at war, seven pilgrims set forth on a final voyage to Hyperion seeking the answers to the unsolved riddles of their lives. Each carries a desperate hope—and a terrible secret. And one may hold the fate of humanity in his hands.',
     rating: 10,
     review:
-      'Seven pilgrims, each with a story to tell, travelling to Hyperion in the midst of an intergalactic conflict. Who is the Shrike? The traitor? Unique and interesting characters, I, personaly love the unlikeable poet Martin Silenius, and the consul. What science fiction should look like',
+      "Seven pilgrims, each with a story, are traveling to Hyperion in the midst of an intergalactic conflict. Who is the Shrike? Who is the traitor? With unique and interesting characters, I personally love the unlikeable poet Martin Silenius and the Consul. This is what science fiction should look like. The best part is that it's the first of four books in the Hyperion Cantos.",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const bookData = [
     desc: "Haviland Tuf is an honest space-trader who likes cats. So how is it that, in competition with the worst villains the universe has to offer, he's become the proud owner of the last seedship of Earth's legendary Ecological Engineering Corps? Never mind, just be thankful that the most powerful weapon in human space is in good hands-hands which now control cellular material for thousands of outlandish creatures. With his unique equipment, Tuf is set to tackle the problems human settlers have created in colonizing far-flung worlds: hosts of hostile monsters, a population hooked on procreation, a dictator who unleashes plagues to get his own way...and in every case the only thing that stands between the colonists and disaster is Tuf's ingenuity - and his reputation as an honest dealer in a universe of rogues...",
     rating: 10,
     review:
-      'My first non-TSOIAF from George R.R Martin, this book is brilliant, full of humour, well in advance of its time. Haviland is one of the most interesting characters that I had the chance to read. Hopefully, George will spare some time to publish more adventures of Haviland Tuf',
+      "My first non-TSOIAF from George R.R Martin, this book is brilliant, full of humor and discussing topics well in advance of its time, Haviland is one of the most interesting characters I've had the chance to read about. Hopefully, George will spare some time to publish more adventures of Haviland Tuf.",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const bookData = [
     desc: "The protagonist, Piscine Molitor 'Pi' Patel, a Tamil boy from Pondicherry, explores issues of spirituality and practicality from an early age. He survives 227 days after a shipwreck while stranded on a boat in the Pacific Ocean with a Bengal tiger named Richard Parker.",
     rating: 7,
     review:
-      "Interesting survival story, at times slightly boringbut still a decent book. I wouldn't want to be left stranded with a tiger on a boat",
+      "Interesting survival story, at times slightly boring but still a decent book. I wouldn't want to be left stranded with a tiger on a boat",
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const bookData = [
     desc: "To Winston Smith, a young man who works in the Ministry of Truth (Minitru for short), come two people who transform this life completely. One is Julia, whom he meets after she hands him a slip reading, 'I love you.' The other is O'Brien, who tells him, 'We shall meet in the place where there is no darkness.' The way in which Winston is betrayed by the one and, against his own desires and instincts, ultimately betrays the other, makes a story of mounting drama and suspense.",
     rating: 7,
     review:
-      "A classic, everyone heard about it, it's probably on your reading list but you might think that it's too old. So yes, technology is different but now more than ever this book is relevant. Clear your browser's cookies, use a VPN, Big Brother is watching you :)",
+      "A classic that everyone has heard about. It's probably on your reading list, but you might think it's too old. However, now more than ever, this book is relevant. Clear your browser's cookies, use a VPN – Big Brother is watching you :)",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const bookData = [
     desc: "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King's Landing. There Eddard Stark of Winterfell rules in Robert's name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse--unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season. Yet a more immediate threat lurks to the south, where Jon Arryn, the Hand of the King, has died under mysterious circumstances. Now Robert is riding north to Winterfell, bringing his queen, the lovely but cold Cersei, his son, the cruel, vainglorious Prince Joffrey, and the queen's brothers Jaime and Tyrion of the powerful and wealthy House Lannister--the first a swordsman without equal, the second a dwarf whose stunted stature belies a brilliant mind. All are heading for Winterfell and a fateful encounter that will change the course of kingdoms. Meanwhile, across the Narrow Sea, Prince Viserys, heir of the fallen House Targaryen, which once ruled all of Westeros, schemes to reclaim the throne with an army of barbarian Dothraki--whose loyalty he will purchase in the only coin left to him: his beautiful yet innocent sister, Daenerys.",
     rating: 10,
     review:
-      "A masterpiece, G.R.R Martin is brilliant, the characters are well developed and once you start reading it you can't stop. Even if you have seen Game of Thrones you have to read it as there is so much content in the book. Unfortunately, you come to a point where you have to stop, two more books have to be published to conclude one of the best fantasy saga",
+      "A masterpiece – G.R.R. Martin is brilliant. The characters are well-developed, and once you start reading, you can't stop. Unfortunately, you come to a point where you have to stop. Two more books have to be published to conclude one of the best fantasy sagas. By the way, even if you have watched Game of Thrones, you have to read it, as there is so much more content in the book. Additionally, the series took some liberties in the storytelling",
   },
   {
     id: 6,
@@ -71,7 +71,8 @@ const bookData = [
 
     desc: 'On the world of Hyperion, the mysterious Time Tombs are opening. And the secrets they contain mean that nothing--nothing anywhere in the universe--will ever be the same. In the second book in the Hyperion Cantos, your favourite characters are at the end of their journey and ready to fulfil their destiny and meet the Shrike.',
     rating: 10,
-    review: 'If you liked the first book, this is a must-to read',
+    review:
+      'We know who is the traitor, is the world like we know, going to survive? If you liked the first book, this is a must-to read',
   },
   {
     id: 7,
@@ -83,7 +84,7 @@ const bookData = [
     desc: "Gathered here in Volume I are the very best of George R.R. Martin's early works, including never-before-published fan pieces, his Hugo, Nebula, and Bram Stoker Award-winning stories plus the original novella The Ice Dragon, from which Martin's New York Times bestselling children's book of the same title originated. A dazzling array that features extensive author commentary, Dreamsongs, Volume I, is the perfect collection for both Martin devotees and a new generation of fans.",
     rating: 9,
     review:
-      "Part bibliographical, full of George R.R Martin's comments on his life, and his works. The perfect introduction to horror stories and some Award-winning works. Among my favourite stories:  A Song for Lya, the Monkey Treatment, Pear shaped Man, Nightflyers and many more.",
+      "Part bibliographical, full of George R.R Martin's comments on his life, and his works. The perfect introduction to horror stories with some Award-winning works. Among my favourite stories:  A Song for Lya, the Monkey Treatment, Pear shaped Man, Nightflyers and many more.",
   },
   {
     id: 8,
@@ -94,7 +95,8 @@ const bookData = [
       'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/7528/9780752890098.jpg',
     desc: 'Whether writing about werewolves, wizards, or outer space, George R.R. Martin is renowned for his versatility and expansive talent, highlighted in this dazzling collection. Included here, in Volume II, are acclaimed stories such as the World Fantasy Award-winner The Skin Trade; as well as the first novella in the Ice and Fire universe, The Hedge Knight;, plus two never-before-published screenplays. Featuring extensive author commentary, Dreamsongs, Volume II, is an invaluable chronicle of a writer at the height of his creativity — and an unforgettable reading experience for fans old and new.',
     rating: 9,
-    review: 'As brilliant as the first volume',
+    review:
+      'As brilliant as the first volume. G.R.R. Martin is so much more than just Game of Thrones',
   },
 
   {
@@ -131,7 +133,7 @@ const bookData = [
     desc: " The Girl with the Dragon Tattoo Harriet Vanger, a scion of one of Sweden’s wealthiest families disappeared without a trace more than forty years ago. All these years later, her aged uncle continues to try to discover what happened to her. He hires Mikael Blomkvist, a journalist recently sidelined by a libel conviction, to investigate. Blomkvist is aided by the pierced and tattooed computer prodigy Lisbeth Salander. Together they tap into a vein of unfathomable iniquity and astonishing corruption on their way to discovering the truth of Harriet Vanger’s fate. The Girl Who Played with Fire Mikael Blomkvist, now the crusading publisher of the magazine Millennium, has decided to run a story that will expose an extensive sex trafficking operation. On the eve of its publication, the two reporters responsible for the article are murdered, and the fingerprints found on the murder weapon belong to his friend Lisbeth Salander. Blomkvist, convinced of Salander’s innocence, plunges into an investigation of the murders. Meanwhile, Salander herself is drawn into a murderous game of cat and mouse, which forces her to face her dark past. The Girl Who Kicked the Hornet's Nest Lisbeth Salander lies in critical condition, a bullet wound to her head, in the intensive care unit of a Swedish city hospital. She’s fighting for her life in more ways than one: if and when she recovers, she’ll be taken back to Stockholm to stand trial for three murders. With the help of Mikael Blomkvist, she will not only have to prove her innocence, but also identify and denounce those in authority who have allowed the vulnerable, like herself, to suffer abuse and violence. On her own, she will plot revenge—against the man who tried to kill her, and against the corrupt government institutions that very nearly destroyed her life.",
     rating: 9,
     review:
-      'This political thriller is particularly important to me as it is the first book that I read in English. Stieg Larsson wrote a masterpiece.',
+      'This political thriller is particularly important to me, as it is the first book I read in English. Part political, part thriller, Stieg Larsson wrote a masterpiece.',
   },
   {
     id: 12,
@@ -154,7 +156,8 @@ const bookData = [
       'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/5750/9780575070707.jpg',
     desc: "Herbert's evocative, epic tales are set on the desert planet Arrakis, the focus for a complex political and military struggle with galaxy-wide repercussions. This volume includes the titles Dune, Dune Messiah and Children of Dune..",
     rating: 9,
-    review: 'A classic in the field of science fiction.',
+    review:
+      'A classic in the field of science fiction, with events spanning thousands of years. One of the most ambitious works of science fiction ever',
   },
   {
     id: 14,
@@ -177,7 +180,7 @@ const bookData = [
       'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/5535/9780553572940.jpg',
     desc: "Two hundred and seventy-four years after the fall of the WorldWeb in Fall of Hyperion, Raoul Endymion is sent on a quest. Retrieving Aenea from the Sphinx before the Church troops reach her is only the beginning. With help from a blue-skinned android named A. Bettik, Raoul and Aenea travel the river Tethys, pursued by Father Captain Frederico DeSoya, an influential warrior-priest and his troops. The shrike continues to make enigmatic appearances, and while many questions were raised in Hyperion and Fall of Hyperion, still more are raised here. Raoul's quest will continue.",
     rating: 8,
-    review: '',
+    review: 'The third book in the hyperion cantos',
   },
   {
     id: 16,
@@ -187,7 +190,7 @@ const bookData = [
     photo:
       'https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/5535/9780553572988.jpg',
     desc: 'The time of reckoning has arrived. As a final genocidal Crusade threatens to enslave humanity forever, a new messiah has come of age. She is Aenea and she has undergone a strange apprenticeship to those known as the Others. Now her protector, Raul Endymion, one-time shepherd and convicted murderer, must help her deliver her startling message to her growing army of disciples. But first they must embark on a final spectacular mission to discover the underlying meaning of the universe itself. They have been followed on their journey by the mysterious Shrike--monster, angel, killing machine--who is about to reveal the long-held secret of its origin and purpose. And on the planet of Hyperion, where the story first began, the final revelation will be delivered--an apocalyptic message that unlocks the secrets of existence and the fate of humankind in the galaxy.',
-    rating: 7,
+    rating: 8,
     review:
       'My least favourite book of the Cantos, but still a really good book and a must to read to conclude the series',
   },
@@ -225,7 +228,7 @@ const bookData = [
     desc: 'Inspired by a desire to understand the nomadic way of life, Australian adventurer Tim Cope embarked on a remarkable journey: 6,000 miles on horseback across the Eurasian steppe from Mongolia, through Kazakhstan, Russia, and the Ukraine, to Hungary retracing the trail of Genghis Khan. From novice rider to travelling three years in the saddle, – accompanied by his Kazakh dog, Tigon – Tim learnt to fend off wolves and would-be horse-thieves, and grapple with the extremes of the steppe as he crossed sub-zero plateaux, the scorching deserts of Kazakhstan and the high-mountain passes of the Carpathians.',
     rating: 9,
     review:
-      'An incredible adventure, going on a 6000 km journey on his own, with little to no horse riding experience. Tim, and his dog Tigon, managed to survive the extreme condition of the steppe.',
+      'An incredible adventure, going on a 6000 kms journey on his own, with little to no horse riding experience. Tim, and his dog Tigon, managed to survive the extreme condition of the steppe.',
   },
   {
     id: 20,
@@ -249,7 +252,7 @@ const bookData = [
     desc: 'Mr Jones of Manor Farm is so lazy and drunken that one day he forgets to feed his livestock. The ensuing rebellion under the leadership of the pigs Napoleon and Wellington leads to the animals taking over the farm. Vowing to eliminate the terrible inequities of the farmyard, the renamed Animal Farm is organized to benefit all who walk on four legs. But as time passes, the ideals of the rebellion are corrupted, then forgotten. And something new and unexpected emerges ...',
     rating: 9,
     review:
-      "This is a really good book, easy to read and easily understood on how communist and autocratic countries take advantage of the working class. The pigs' Napoleon and Snowball decry the elites to the point of revolt to finally replace the elites and behave exactly as before. The leaders, keep brainwashing and repeating how harvests are getting bigger and how life is far more pleasant now than when they were living under the tyranny of humans. History repeats itself, 80 years later this book should be read by anyone but is banned in many countries..",
+      'This is a really good book, easy to read and understand. It illustrates how communist and autocratic countries take advantage of the working class. The pigs Napoleon and Snowball decry the elites to the point of revolt, only to replace the elites and behave exactly as before. The leaders keep brainwashing and repeating how harvests are getting bigger and how life is far more pleasant now than when they were living under the tyranny of humans. History repeats itself; 80 years later, this book should be read by anyone, but it is banned in many countries...',
   },
   {
     id: 22,
@@ -259,8 +262,21 @@ const bookData = [
     photo:
       'https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1390894862i/3973.jpg',
     desc: 'The Trojan War rages at the foot of Olympos Mons on Mars—observed and influenced from on high by Zeus and his immortal family—and twenty-first-century professor Thomas Hockenberry is there to play a role in the insidious private wars of vengeful gods and goddesses. On Earth, a small band of the few remaining humans pursues a lost past and devastating truth—as four sentient machines depart from Jovian space to investigate, perhaps terminate, the potentially catastrophic emissions emanating from a mountaintop miles above the terraformed surface of the Red Planet.',
+    rating: '10',
+    review:
+      " am a huge fan of Dan Simmons's work and of history. Although I've never had the chance to read the Iliad by Homer, the early part of the book feels like you are. For the first quarter of the book, I wasn't too interested in the story of Damean, Ada, Harman, and Hannah as I wanted to read more about the battle down at Troy. However, I quickly became excited by the whole story. Mixing sci-fi and historical events is just brilliant.",
+  },
+  // {
+  {
+    id: 22,
+    title: 'Olympos',
+    author: 'Dan Simmons',
+    genre: ['Science Fiction', 'Fantasy'],
+    photo: 'https://productimages.worldofbooks.com/0575078820.jpg',
+    desc: "Helen of Troy is in mourning for her dead husband, Paris. Killed in single combat with the merciless Apollo, his body is nothing but a scorched and blasted thing. Hockenberry, her lover, still sneaks from her bed after their nights of lovemaking. And the gods still strike out from the besieged Olympos, their single-molecule bomb casings quantum phase-shifting through the moravecs' force shield and laying waste to Ilium. Or so Hockenberry and the amusing little metal creature, Mahnmut, have tried to explain to her. Helen of Troy does not give a fig about machines. She must dress for the funeral. And man and the gods and the unknown players in this tragedy must prepare for the final act. And a battle that will decide the future of the universe itself.",
     rating: '',
-    review: "Current reading, it's going to be good",
+    review:
+      "The first book ended on a cliffhanger, and you are left with no choice but to read the second book, which wasn't a problem at all for me. Currently reading it.",
   },
   // {
   //   id: 17,
