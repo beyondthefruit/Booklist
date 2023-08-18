@@ -174,9 +174,8 @@ nav {
 .single-book {
   margin: 2rem 0 1rem 0;
   padding: 0.5rem;
-  border-radius: 1%;
+  border-radius: 5px;
   border: 0.2rem solid var(--clr-red);
-  /* box-shadow: 0px 0px 1px 2px var(--clr-pink); */
   background: var(--clr-ecru);
   width: 100%;
   height: auto;
@@ -289,9 +288,6 @@ nav {
     width: 280px;
     margin-top: 1.5rem;
   }
-  /* .title-genre p {
-    padding: 0.5rem;
-  } */
 }
 
 @media screen and (min-width: 760px) {
@@ -339,9 +335,6 @@ nav {
     width: 5.5rem;
     font-size: 0.9rem;
   }
-  .book-icons {
-    top: 5px;
-  }
 }
 @media screen and (min-width: 900px) {
   .single-book {
@@ -383,6 +376,7 @@ nav {
   .book-icons {
     font-size: 1.5rem;
     margin-right: 1rem;
+    top: 4px;
   }
 
   .description {
@@ -425,7 +419,7 @@ nav {
 }
 @media screen and (min-width: 1200px) {
   .single-book img {
-    height: 500px;
+    height: 480px;
     width: 320px;
   }
   .book-title {
@@ -450,7 +444,7 @@ nav {
     width: 430px;
     height: 650px;
     grid-row: 1/4;
-    padding: 2rem 0 2rem 2rem;
+    margin: 1rem 0.5rem;
   }
 
   .book-title {
@@ -458,16 +452,17 @@ nav {
   }
 
   .book-icons {
-    font-size: 2rem;
+    font-size: 1.9rem;
     margin-right: 1.5rem;
+    top: 6px;
   }
 
   .information {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 
   .title-genre {
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0 1.5rem 0;
   }
   .title-genre p {
     font-size: 1.5rem;
@@ -623,7 +618,8 @@ nav {
 
 .genres-icons {
   margin-right: 1rem;
-
+  position: relative;
+  top: 2px;
   font-size: 1.2rem;
   color: var(--clr-burgundy);
 }
