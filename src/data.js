@@ -265,15 +265,26 @@ const bookData = [
   },
   // {
   {
-    id: 22,
+    id: 23,
     title: 'Olympos',
     author: 'Dan Simmons',
     genre: ['Science Fiction', 'Fantasy'],
     photo: 'https://productimages.worldofbooks.com/0575078820.jpg',
     desc: "Helen of Troy is in mourning for her dead husband, Paris. Killed in single combat with the merciless Apollo, his body is nothing but a scorched and blasted thing. Hockenberry, her lover, still sneaks from her bed after their nights of lovemaking. And the gods still strike out from the besieged Olympos, their single-molecule bomb casings quantum phase-shifting through the moravecs' force shield and laying waste to Ilium. Or so Hockenberry and the amusing little metal creature, Mahnmut, have tried to explain to her. Helen of Troy does not give a fig about machines. She must dress for the funeral. And man and the gods and the unknown players in this tragedy must prepare for the final act. And a battle that will decide the future of the universe itself.",
-    rating: '',
+    rating: '9',
     review:
-      "The first book ended on a cliffhanger, and you are left with no choice but to read the second book, which wasn't a problem at all for me. Currently reading it.",
+      "The first book ended on a cliffhanger, and you are left with no choice but to read the second book, which wasn't a problem. Dan Simmons is an expert storyteller.  ",
+  },
+  {
+    id: 24,
+    title: 'Ubik',
+    author: 'Philip K. Dick',
+    genre: ['Science Fiction'],
+    photo: 'https://productimages.worldofbooks.com/1474607438.jpg',
+    desc: "Glen Runciter is dead. Or is he? Someone died in the explosion orchestrated by his business rivals, but even as his funeral is scheduled, his mourning employees are receiving bewildering messages from their boss. And the world around them is warping and regressing in ways which suggest that their own time is running out. If it hasn't already.",
+    rating: '9',
+    review:
+      "Such a peculiar book! At times, I found myself wondering, 'What the heck are these dialogues?' However, it somehow gets under your skin, and all these bizarre events are strangely captivating. Now that I've finished the book, I feel the urge to read it again.",
   },
   // {
   //   id: 17,
